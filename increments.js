@@ -7,9 +7,12 @@ function increase(){
                 
             }    
 function decrease(){
-              var textBox = document.getElementById("text");
-                textBox.value--;
-                prix1();
+              
+                var i = document.getElementById('text').value;
+    if (i>0){
+        document.getElementById('text').value = --i;
+    }
+    prix1();
                 total();
             }  
 
@@ -21,12 +24,12 @@ function increase1(){
                 total();
             }    
 function decrease1(){
-              var textBox = document.getElementById("text1");
-                textBox.value--;
-                prix2();
+              var i = document.getElementById('text1').value;
+    if (i>0){
+        document.getElementById('text1').value = --i;
+    }
+    prix2();
                 total();
-
-                
             }  
 
 function increase2(){
@@ -39,11 +42,12 @@ function increase2(){
                 
             }    
 function decrease2(){
-              var textBox = document.getElementById("text2");
-                textBox.value--;
-                prix3();
+              var i = document.getElementById('text2').value;
+    if (i>0){
+        document.getElementById('text2').value = --i;
+    }
+    prix3();
                 total();
-                
             }  
 
 function delete_item1() {
